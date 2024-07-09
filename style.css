@@ -1,8 +1,49 @@
 body {
   background-color: #3a3844;
   overflow: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 #background {
   width: 100%;
+}
+
+#percent {
+  position: absolute;
+  left: 37%;
+  top: calc(18vw - 70px);
+  color: #fffdf6;
+  font-size: 3.3em;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+#slider {
+  position: absolute;
+  left: 39%;
+  top: 27vw;
+  width: 54vw;
+  height: 1.4vh;
+  background-color: #a2939d;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#slider #fill {
+  position: relative;
+  height: 1.4vh;
+  background-color: #68f79d;
+  width: 37%;
+}
+
+#slider_handle {
+  position: absolute;
+  left: 91vw;
+  top: 26.3vw;
+  width: 3vh;
+  height: 3vh;
+  border-radius: 100%;
+  z-index: 10;
+  background-color: #f3e9e8;
 }
