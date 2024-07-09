@@ -39,11 +39,30 @@ body {
 
 #slider_handle {
   position: absolute;
-  left: 91vw;
-  top: 26.3vw;
-  width: 3vh;
-  height: 3vh;
+  left: 92vw;
+  top: 26.4vw;
+  width: 2vw;
+  height: 2vw;
   border-radius: 100%;
   z-index: 10;
   background-color: #f3e9e8;
+}
+
+#button_minus {
+  position: absolute;
+  cursor: pointer;
+  left: 65vw;
+  top: 30.7vw;
+  width: 7vw;
+  height: 8vw;
+}
+
+
+#button_plus {
+  position: absolute;
+  cursor: pointer;
+  left: 86vw;
+  top: 30.7vw;
+  width: 7vw;
+  height: 8vw;
 }
